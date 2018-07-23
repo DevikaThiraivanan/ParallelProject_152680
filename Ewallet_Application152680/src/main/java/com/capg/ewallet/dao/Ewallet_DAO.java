@@ -245,7 +245,7 @@ public class Ewallet_DAO implements IEwallet_DAO {
 		account_num = accnum;
 		try {
 			Statement st = connect.createStatement();
-			String Query = "Select * from transactions where  account_number='\" + account_num + \"'\"";
+			String Query = "select * from ewallet_transactiondetails where account_number='" + account_num + "'";
 			
 			ResultSet r = st.executeQuery(Query);
 			

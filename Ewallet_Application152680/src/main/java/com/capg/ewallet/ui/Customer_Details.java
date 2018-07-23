@@ -32,10 +32,12 @@ public class Customer_Details {
 		
 		do {
 			//ClientMenu
+			System.out.println("******************************");
 			System.out.println("Welcome to XYZ Bank-EWALLET");
 			System.out.println("1.CREATE AN ACCOUNT");
 			System.out.println("2.LOG IN");
 			System.out.println("3.LOG OUT");
+			System.out.println("*******************************");
 
 		
 		    //Choice
@@ -139,12 +141,16 @@ public class Customer_Details {
 					 
 					 if(service1.login(user_name, password)==1) {
 						 do {
+							 
+							 System.out.println("***************************");
 							 System.out.println("3.DEPOSIT");
 							 System.out.println("4.WITHDRAW");
 							 System.out.println("5.FUND TRANSACTION");
 							 System.out.println("6.SHOW BALANCE");
 							 System.out.println("7.PRINT TRANSACTION");
 							 System.out.println("8.EXIT");
+							 System.out.println("****************************");
+							 
 							 
 							 
 							 System.out.println("ENTER YOUR CHOICE");
